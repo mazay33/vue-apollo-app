@@ -1,0 +1,16 @@
+query GetProducts{
+  products {
+    id
+    name
+    article
+    price
+    available
+    category_name
+    product_photos {
+      id
+      product_id
+      photo_url
+      is_main
+    }
+  }
+}
